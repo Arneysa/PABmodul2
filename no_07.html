@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+
+    <h1>Advanced React Introduction</h1>
+    <h2>Get Form Value via Javascript</h2>
+
+
+
+    <input type="text" id="input" />
+    <input type="button" value="OK" onclick="getInput()">
+
+    <div id="root"></div>
+    <script>
+         // Normal javascript function
+         function getInput() {
+            var inputVal = document.getElementById("input").value; // Get element value
+
+            alert(inputVal);
+        }
+     </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
